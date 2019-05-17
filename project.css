@@ -1,0 +1,121 @@
+﻿/*reset the whole body of page*/
+html,
+body {
+    height: 100%; 
+    padding: 0;
+    margin: 0;
+}
+
+/*___________________________________________________________Seperate the page into header, container aka middle, and footer as table___________________________________________________________*/
+#container {
+    display: table; 
+    width: 100%;
+    height: 100%;   
+    text-align: center;
+}
+
+#container > div {   
+    display: table-row;   
+    width: 100%;
+}
+
+#container > div > div {   
+    display: table-cell;   
+    width: 100%;
+}
+
+#header > div {
+    height:auto; background-color:black;}
+
+
+#content > div {
+    height: 100%; background-color:#acdbdf; text-align:left; vertical-align:middle;
+    font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; font-size:25px; 
+}
+
+#content > div.center{
+	height: 100%; background-color:#acdbdf;  vertical-align:middle; text-align:center;
+    font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; font-size:25px;
+
+}
+#footer > div {
+    height:auto; background-color: #f0ece2; }
+.f_contact{
+	padding:20px;
+	float:right; font-size:20px;
+}
+    
+/*___________________________________________________________style___________________________________________________________*/
+table.header {
+	/*each grid is evenly divided with 1oo% width*/
+    table-layout: fixed;
+    width: 100%;
+    font-size: 40px;
+}
+
+th.header{
+	border:medium yellow solid; color:white;
+}
+
+th.style_1{
+	color:white; background-color:#999999; text-align:center;
+}
+th.style_2v1{
+	color:black; background-color:white;
+}
+th.style_2v2{
+	color:red; font-weight:bold; background-color:white;
+}
+
+.table-layout{
+	background-color:gray; color:white; 
+}
+
+.span{
+	background-color:yellow; color:black;
+}
+.span1{
+	background-color:black; color:yellow; 
+}
+.span1 > a:hover{
+	color:white; 
+}
+
+h1.style_1{
+	text-align:center;font-size:50px; font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1.style_2{
+	font-size:50px; font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+p.main{
+	font-size:30px; padding:25px 400px 50px 400px; vertical-align:middle; text-align:center;
+
+}
+
+p.style_1{
+	font-size:30px; padding:0px 500px 30px 500px; text-align:left; vertical-align:middle;
+}
+
+/*_______________________________________________________________href__________________________________________________________*/
+a.a_top{
+	color:white;text-decoration: none;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif; font-size:5em;
+}
+
+a.a_header{
+	color:inherit; text-decoration: none;
+}
+a.a_body{
+	color:yellow; text-decoration: none; 
+}
+a.a_footer{
+	color: red; text-decoration: none;
+}
+a:hover{
+	color: blue;
+}
+a:after{
+	color:inherit;
+}
